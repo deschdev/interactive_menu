@@ -358,7 +358,7 @@ header.top h3:after {
   -webkit-transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
           transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
 }
-input#fold:not(:checked) ~ #main .interactive-menu > * {
+input#fold:not(:checked) ~ #root .interactive-menu > * {
   -webkit-transform: none;
           transform: none;
 }
